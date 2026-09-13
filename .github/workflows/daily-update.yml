@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Get repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Make daily update
         run: |
@@ -29,4 +31,6 @@ jobs:
 
           git diff --cached --quiet || git commit -m "chore: scheduled update test"
 
-          git push
+          git pull --rebase origin main
+
+          git push origin main
