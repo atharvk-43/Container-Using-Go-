@@ -106,7 +106,7 @@ There are several directions this project could be extended:
 
 This project is not meant to compete with Docker, but to understand it.
 
-It demonstrates how containerization works at a fundamental level by building the core pieces manually. More importantly, it serves as a practical exploration of Linux systems programming and process isolation.
+It demonstrates how containerization works at a fundamental level by building the core pieces manually. More importantly, it serves as a practical exploration of Linux systems programming and process isolation
 
 
 
